@@ -6,8 +6,12 @@
 <div class="row">
   <div class="col-12">
     <h1>
-      Edit a Post:
-      <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-preview">
+      Edit a Post:<br>
+      {% if "placeholder" in upload.image.url %}
+          <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="{{ upload.caption }}" class="img-fluid img-preview">
+      {% else %}
+          <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-preview">
+      {% endif %}
     </h1>
   </div>
 </div>
@@ -18,7 +22,8 @@
       {% csrf_token %}
       {{ form.as_p }}
       <div>
-        <button type="submit">Save</button>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a href="{{ request.META.HTTP_REFERER }}" class="btn btn-danger">Cancel</a>
       </div>
     </form>
   </div>
@@ -34,8 +39,17 @@
 
 <!-- leaflet map: code assistance from mentor Tim Nelson -->
 <script>
+
+  // basic leaflet map set on Dublin Airport by default
+  let origLat = document.getElementById("id_latitude").value;
+  let origLng = document.getElementById("id_longitude").value;
+  if (!origLat || !origLng) {
+    origLat = 53.42662;
+    origLng = -6.26290;
+  }
+
   // initial view (set on Dublin Airport by default)
-  let map = L.map('map').setView([53.42662, -6.26290], 13);
+  let map = L.map('map').setView([origLat, origLng], 13);
 
   // tiles
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -50,14 +64,6 @@
     } else {
       $("#submit-btn").prop("disabled", false);
     }
-  }
-
-  // basic leaflet map set on Dublin Airport by default
-  let origLat = document.getElementById("id_latitude").value;
-  let origLng = document.getElementById("id_longitude").value;
-  if (!origLat || !origLng) {
-    origLat = 53.42662;
-    origLng = -6.26290;
   }
 
   // map marker
