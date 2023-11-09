@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-12">
+    <h1>
+      Edit a Post:
+      <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-preview">
+    </h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    <form method="POST" action="{% url 'edit_upload' upload.id %}" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+  </div>
+  <div class="col-12 col-md-6">
+    <!-- map -->
+    <div id="map"></div>
+  </div>
+</div>
+{% endblock %}
