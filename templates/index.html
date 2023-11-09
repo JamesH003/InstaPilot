@@ -6,4 +6,29 @@
 
 <div class="row">
 
+    {% for upload in upload_list %}
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card mb-4">
+            <div class="card-body">
+                <a href="{% url 'upload_details' upload.id %}">
+                {% if "placeholder" in upload.image.url %}
+                    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" class="card-img-top img-fluid">
+                {% else %}
+                    <img src="{{ upload.image.url }}" class="card-img-top img-fluid">
+                {% endif %}
+                </a>
+                
+                <div class="image-flash">
+                    <p class="caption">
+                        <strong>{{ upload.user }}</strong>: {{ upload.caption }}<br>
+                        <strong>Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
+                        <strong>Location</strong>: {{ upload.location }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
 {% endblock %}
