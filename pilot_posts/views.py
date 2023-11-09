@@ -31,3 +31,12 @@ def upload_post(request):
     }
     return render(request, 'upload_post.html', context)
 
+
+def upload_details(request, id):
+    upload = get_object_or_404(Upload, id=id)
+    context = {
+        'upload': upload
+    }
+
+    return render(request, 'upload_details.html', context)
+
