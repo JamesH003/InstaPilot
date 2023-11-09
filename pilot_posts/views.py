@@ -40,3 +40,19 @@ def upload_details(request, id):
 
     return render(request, 'upload_details.html', context)
 
+
+def edit_upload(request, id):
+    upload = get_object_or_404(Upload, id=id)
+    form = UploadForm(request.POST or None, request.FILES or None, instance=upload)
+    if request.method == 'POST':
+        if form.is_valid():
+            form.instance.user = upload.user
+            form.save()
+            return redirect('home')
+    context = {
+        'form': form,
+        'upload': upload,
+    }
+
+    return render(request, 'edit_upload.html', context)
+
