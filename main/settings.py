@@ -30,7 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", False)
 
-ALLOWED_HOSTS = ['instapilot-e1ebc8c013f4.herokuapp.com', '8000-jamesh003-instapilot-jwnuc0jq8lx.ws-eu106.gitpod.io']
+ALLOWED_HOSTS = []
+host = os.environ.get("SITE_NAME")
+if host:
+    ALLOWED_HOSTS.append(host)
 
 
 # Application definition
