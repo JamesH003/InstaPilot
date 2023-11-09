@@ -28,3 +28,57 @@
   </div>
 </div>
 {% endblock %}
+
+
+{% block js %}
+
+<!-- leaflet map: code assistance from mentor Tim Nelson -->
+<script>
+  // initial view (set on Dublin Airport by default)
+  let map = L.map('map').setView([53.42662, -6.26290], 13);
+
+  // tiles
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  // require lat/lng fields prior to submission
+  function enableDisableSubmitBtn() {
+    if ($("#id_latitude").val() == "" || $("#id_longitude").val() == "") {
+      $("#submit-btn").prop("disabled", true);
+    } else {
+      $("#submit-btn").prop("disabled", false);
+    }
+  }
+
+  // basic leaflet map set on Dublin Airport by default
+  let origLat = document.getElementById("id_latitude").value;
+  let origLng = document.getElementById("id_longitude").value;
+  if (!origLat || !origLng) {
+    origLat = 53.42662;
+    origLng = -6.26290;
+  }
+
+  // map marker
+  let marker = L.marker([origLat, origLng], { draggable: true }).addTo(map);
+  // prefill lat/lng values on map-click or marker-drag
+  marker.on("dragend", function (e) {
+    updateCoords(marker.getLatLng().lat, marker.getLatLng().lng, map.getZoom());
+  });
+  map.on("click", function (e) {
+    marker.setLatLng(e.latlng);
+    updateCoords(marker.getLatLng().lat, marker.getLatLng().lng, map.getZoom());
+  });
+
+  function updateCoords(lat, lng, zoom) {
+    document.getElementById("id_latitude").value = marker.getLatLng().lat.toFixed(5);
+    document.getElementById("id_longitude").value = marker.getLatLng().lng.toFixed(5);
+    zoom = zoom < 10 ? 10 : zoom;
+    map.flyTo([lat, lng], zoom);
+    enableDisableSubmitBtn();
+  }
+
+</script>
+
+{% endblock %}
