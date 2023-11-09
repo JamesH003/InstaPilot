@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+
+    <!-- Upload details -->
+    <div class="col-12 col-md-6 text-center mx-auto">
+        {% if "placeholder" in upload.image.url %}
+        <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" class="img-fluid">
+        {% else %}
+        <img src="{{ upload.image.url }}" class="img-fluid img-full">
+        {% endif %}
+    </div>
+    <div class="col-12 col-md-6 text-center mx-auto">
+        <!-- map -->
+        <div id="map"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <p class="caption">
+            <strong>{{ upload.user }}</strong>: {{ upload.caption }}<br>
+            <strong>Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
+            <strong>Location</strong>: {{ upload.location }}
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        {% if request.user.is_superuser or request.user == upload.user %}
+            <a href="{% url 'edit_upload' upload.id %}" class="btn btn-primary">Edit</a>
+            <a href="{% url 'delete_post' upload.id %}" class="btn btn-danger">Delete</a>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}
