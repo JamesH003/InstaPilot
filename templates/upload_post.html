@@ -9,3 +9,15 @@
   </div>
 </div>
 
+<div class="row">
+  <div class="col-12 col-md-6">
+    <form method="POST" action="upload_post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      
+      <div>
+        <button id="submit-btn" type="submit" disabled>Share</button>
+      </div>
+    
+    </form>
+  </div>
