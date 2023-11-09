@@ -12,7 +12,7 @@
             <div class="card-body">
                 <a href="{% url 'upload_details' upload.id %}">
                 {% if "placeholder" in upload.image.url %}
-                    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" class="card-img-top img-fluid">
+                    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" class="card-img-top img-fluid card-img-custom">
                 {% else %}
                     <img src="{{ upload.image.url }}" class="card-img-top img-fluid">
                 {% endif %}
@@ -20,9 +20,10 @@
                 
                 <div class="image-flash">
                     <p class="caption">
-                        <strong>{{ upload.user }}</strong>: {{ upload.caption }}<br>
-                        <strong>Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
-                        <strong>Location</strong>: {{ upload.location }}
+                        <i class="fas fa-user"></i> {{ upload.user }}<br>
+                        <i class="fas fa-plane"></i> {{ upload.airline }} {{ upload.flight_number }}<br>
+                        <i class="fas fa-map-marker-alt"></i> {{ upload.location }}<br><br>
+                        {{ upload.caption }}
                     </p>
                 </div>
             </div>
