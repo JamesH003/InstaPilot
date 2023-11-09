@@ -8,26 +8,26 @@
 
     {% for upload in upload_list %}
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card mb-4">
-            <div class="card-body">
-                <a href="{% url 'upload_details' upload.id %}">
-                {% if "placeholder" in upload.image.url %}
-                    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" class="card-img-top img-fluid card-img-custom">
-                {% else %}
-                    <img src="{{ upload.image.url }}" class="card-img-top img-fluid">
-                {% endif %}
-                </a>
-                
-                <div class="image-flash">
-                    <p class="caption">
-                        <i class="fas fa-user"></i> {{ upload.user }}<br>
-                        <i class="fas fa-plane"></i> {{ upload.airline }} {{ upload.flight_number }}<br>
-                        <i class="fas fa-map-marker-alt"></i> {{ upload.location }}<br><br>
-                        {{ upload.caption }}
-                    </p>
+        <a href="{% url 'upload_details' upload.id %}" class="text-decoration-none">
+            <div class="card mb-4">
+                <div class="card-body">
+                    {% if "placeholder" in upload.image.url %}
+                        <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="{{ upload.caption }}" class="card-img-top img-fluid card-img-custom">
+                    {% else %}
+                        <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="card-img-top img-fluid">
+                    {% endif %}
+                    
+                    <div class="image-flash">
+                        <p class="caption">
+                            <i class="fas fa-user"></i> {{ upload.user }}<br>
+                            <i class="fas fa-plane"></i> ({{ upload.airline.identifier }}) {{ upload.airline.name }} {{ upload.flight_number }}<br>
+                            <i class="fas fa-map-marker-alt"></i> {{ upload.location }}<br><br>
+                            {{ upload.caption }}
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
     {% endfor %}
 </div>
