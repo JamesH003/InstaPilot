@@ -1,0 +1,1034 @@
+[
+  {
+    "model": "pilot_posts.airline",
+    "pk": 1,
+    "fields": {
+      "name": "Aer Lingus",
+      "identifier": "EIN"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 2,
+    "fields": {
+      "name": "Adria Airways",
+      "identifier": "ADR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 3,
+    "fields": {
+      "name": "Aegean Airlines",
+      "identifier": "AEE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 4,
+    "fields": {
+      "name": "Aeroflot",
+      "identifier": "AFL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 5,
+    "fields": {
+      "name": "Aerolineas Argentinas",
+      "identifier": "ARG"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 6,
+    "fields": {
+      "name": "Aeromexico",
+      "identifier": "AMX"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 7,
+    "fields": {
+      "name": "Afriqiyah Airways",
+      "identifier": "AAW"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 8,
+    "fields": {
+      "name": "Air Arabia",
+      "identifier": "ABY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 9,
+    "fields": {
+      "name": "Air Astana",
+      "identifier": "KZR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 10,
+    "fields": {
+      "name": "Air Baltic",
+      "identifier": "BTI"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 11,
+    "fields": {
+      "name": "Air Busan",
+      "identifier": "ABL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 12,
+    "fields": {
+      "name": "Air Caledonia",
+      "identifier": "ACM"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 13,
+    "fields": {
+      "name": "Air Canada",
+      "identifier": "ACA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 14,
+    "fields": {
+      "name": "Air China",
+      "identifier": "CCA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 15,
+    "fields": {
+      "name": "Air France",
+      "identifier": "AFR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 16,
+    "fields": {
+      "name": "Air Greenland",
+      "identifier": "GRL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 17,
+    "fields": {
+      "name": "Air Haiti",
+      "identifier": "HJA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 18,
+    "fields": {
+      "name": "Air Iceland",
+      "identifier": "FXI"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 19,
+    "fields": {
+      "name": "Air Jamaica",
+      "identifier": "AJM"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 20,
+    "fields": {
+      "name": "Air Malta",
+      "identifier": "AMC"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 21,
+    "fields": {
+      "name": "Air Mauritius",
+      "identifier": "MAU"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 22,
+    "fields": {
+      "name": "Air New Zealand",
+      "identifier": "ANZ"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 23,
+    "fields": {
+      "name": "Air Nippon",
+      "identifier": "ANK"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 24,
+    "fields": {
+      "name": "Air Nostrum",
+      "identifier": "ANE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 25,
+    "fields": {
+      "name": "Air Philippines",
+      "identifier": "GAP"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 26,
+    "fields": {
+      "name": "Air Seoul",
+      "identifier": "ASV"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 27,
+    "fields": {
+      "name": "Air Serbia",
+      "identifier": "ASL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 28,
+    "fields": {
+      "name": "Air Seychelles",
+      "identifier": "SEY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 29,
+    "fields": {
+      "name": "Air Transat",
+      "identifier": "TSC"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 30,
+    "fields": {
+      "name": "AirAsia",
+      "identifier": "AXM"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 31,
+    "fields": {
+      "name": "Alaska Airlines",
+      "identifier": "ASA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 32,
+    "fields": {
+      "name": "All Nippon Airways",
+      "identifier": "ANA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 33,
+    "fields": {
+      "name": "Allegiant Air",
+      "identifier": "AAY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 34,
+    "fields": {
+      "name": "Aloha Airlines",
+      "identifier": "AAH"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 35,
+    "fields": {
+      "name": "American Airlines",
+      "identifier": "AAL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 36,
+    "fields": {
+      "name": "Aruba Airlines",
+      "identifier": "ART"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 37,
+    "fields": {
+      "name": "Asiana Airlines",
+      "identifier": "AAR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 38,
+    "fields": {
+      "name": "ASL Airlines Ireland",
+      "identifier": "ABR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 39,
+    "fields": {
+      "name": "Atlas Air",
+      "identifier": "GTI"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 40,
+    "fields": {
+      "name": "Austrian Airlines",
+      "identifier": "AUA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 41,
+    "fields": {
+      "name": "Avianca",
+      "identifier": "AVA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 42,
+    "fields": {
+      "name": "BA CityFlyer",
+      "identifier": "CFE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 43,
+    "fields": {
+      "name": "Bamboo Airways",
+      "identifier": "BAV"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 44,
+    "fields": {
+      "name": "Binter Canarias",
+      "identifier": "IBB"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 45,
+    "fields": {
+      "name": "British Airways",
+      "identifier": "BAW"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 46,
+    "fields": {
+      "name": "Brussles Airlines",
+      "identifier": "BEL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 47,
+    "fields": {
+      "name": "Buffalo Airways",
+      "identifier": "BFL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 48,
+    "fields": {
+      "name": "Cargolux",
+      "identifier": "CLX"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 49,
+    "fields": {
+      "name": "Cathay Pacific",
+      "identifier": "CPA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 50,
+    "fields": {
+      "name": "Cebu Pacific",
+      "identifier": "CEB"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 51,
+    "fields": {
+      "name": "China Eastern Airlines",
+      "identifier": "CES"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 52,
+    "fields": {
+      "name": "China Southern Airlines",
+      "identifier": "CSN"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 53,
+    "fields": {
+      "name": "CityJet",
+      "identifier": "BCY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 54,
+    "fields": {
+      "name": "Colgan Air",
+      "identifier": "CJC"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 55,
+    "fields": {
+      "name": "Comair",
+      "identifier": "CAW"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 56,
+    "fields": {
+      "name": "Condor",
+      "identifier": "CIB"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 57,
+    "fields": {
+      "name": "Delta Air Lines",
+      "identifier": "DAL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 58,
+    "fields": {
+      "name": "EasyJet",
+      "identifier": "EZY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 59,
+    "fields": {
+      "name": "Egyptair",
+      "identifier": "MSR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 60,
+    "fields": {
+      "name": "EL AL Airlines",
+      "identifier": "ELY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 61,
+    "fields": {
+      "name": "Emerald Airlines",
+      "identifier": "EAI"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 62,
+    "fields": {
+      "name": "Emirates Airlines",
+      "identifier": "UAE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 63,
+    "fields": {
+      "name": "Ethiopian Airlines",
+      "identifier": "ETH"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 64,
+    "fields": {
+      "name": "Etihad Airlines",
+      "identifier": "ETD"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 65,
+    "fields": {
+      "name": "Eurowings",
+      "identifier": "EWG"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 66,
+    "fields": {
+      "name": "EVA Air",
+      "identifier": "EVA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 67,
+    "fields": {
+      "name": "FedEx Express",
+      "identifier": "FDX"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 68,
+    "fields": {
+      "name": "Finnair",
+      "identifier": "FIN"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 69,
+    "fields": {
+      "name": "Flybe",
+      "identifier": "BEE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 70,
+    "fields": {
+      "name": "Flydubai",
+      "identifier": "FDB"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 71,
+    "fields": {
+      "name": "Frontier Airlines",
+      "identifier": "FFT"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 72,
+    "fields": {
+      "name": "Garuda Indonesia",
+      "identifier": "GIA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 73,
+    "fields": {
+      "name": "Germanwings",
+      "identifier": "GWI"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 74,
+    "fields": {
+      "name": "Gulf Air",
+      "identifier": "GFA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 75,
+    "fields": {
+      "name": "Hainan Airlines",
+      "identifier": "CHH"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 76,
+    "fields": {
+      "name": "Hawaiian Airlines",
+      "identifier": "HAL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 77,
+    "fields": {
+      "name": "Horizon Air",
+      "identifier": "QXE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 78,
+    "fields": {
+      "name": "Iberia Airlines",
+      "identifier": "IBE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 79,
+    "fields": {
+      "name": "Icelandair",
+      "identifier": "ICE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 80,
+    "fields": {
+      "name": "Indian Airlines",
+      "identifier": "IAC"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 81,
+    "fields": {
+      "name": "Infigo Airlines",
+      "identifier": "IBU"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 82,
+    "fields": {
+      "name": "Japan Airlines",
+      "identifier": "JAL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 83,
+    "fields": {
+      "name": "Jet2",
+      "identifier": "EXS"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 84,
+    "fields": {
+      "name": "JetBlue Airways",
+      "identifier": "JBU"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 85,
+    "fields": {
+      "name": "Jetstar",
+      "identifier": "JST"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 86,
+    "fields": {
+      "name": "KLM",
+      "identifier": "KLM"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 87,
+    "fields": {
+      "name": "Korean Air",
+      "identifier": "KAL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 88,
+    "fields": {
+      "name": "Kuwait Airways",
+      "identifier": "KAC"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 89,
+    "fields": {
+      "name": "LATAM Brasil",
+      "identifier": "TAM"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 90,
+    "fields": {
+      "name": "LATAM Colombia",
+      "identifier": "ARE"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 91,
+    "fields": {
+      "name": "Lauda Air",
+      "identifier": "LDA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 92,
+    "fields": {
+      "name": "Level",
+      "identifier": "LVL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 93,
+    "fields": {
+      "name": "Loganair",
+      "identifier": "LOG"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 94,
+    "fields": {
+      "name": "LOT Polish Airlines",
+      "identifier": "LOT"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 95,
+    "fields": {
+      "name": "Luxair",
+      "identifier": "LGL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 96,
+    "fields": {
+      "name": "Malaysia Airlines",
+      "identifier": "MAS"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 97,
+    "fields": {
+      "name": "Malta Air",
+      "identifier": "MAY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 98,
+    "fields": {
+      "name": "Martinair",
+      "identifier": "MPH"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 99,
+    "fields": {
+      "name": "Middle East Airlines",
+      "identifier": "MEA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 100,
+    "fields": {
+      "name": "Netjets",
+      "identifier": "EJA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 101,
+    "fields": {
+      "name": "Niki",
+      "identifier": "NLY"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 102,
+    "fields": {
+      "name": "Norwegian Air International",
+      "identifier": "DLH"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 103,
+    "fields": {
+      "name": "Norwegian Air International",
+      "identifier": "IBK"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 104,
+    "fields": {
+      "name": "Oman Air",
+      "identifier": "OMA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 105,
+    "fields": {
+      "name": "Pakistan International Airlines",
+      "identifier": "PIA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 106,
+    "fields": {
+      "name": "Pegasus Airlines",
+      "identifier": "PGT"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 107,
+    "fields": {
+      "name": "Qantas",
+      "identifier": "QFA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 108,
+    "fields": {
+      "name": "Qatar Airways",
+      "identifier": "QTR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 109,
+    "fields": {
+      "name": "Royal Air Maroc",
+      "identifier": "RAM"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 110,
+    "fields": {
+      "name": "Ryanair",
+      "identifier": "RYR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 111,
+    "fields": {
+      "name": "Scandinavian Airlines",
+      "identifier": "SAS"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 112,
+    "fields": {
+      "name": "Silk Way Airlines",
+      "identifier": "AZQ"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 113,
+    "fields": {
+      "name": "SilkAir",
+      "identifier": "SLK"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 114,
+    "fields": {
+      "name": "Singapore Airlines",
+      "identifier": "SIA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 115,
+    "fields": {
+      "name": "Smartlynx Airlines",
+      "identifier": "ART"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 116,
+    "fields": {
+      "name": "South African Airways",
+      "identifier": "SAA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 117,
+    "fields": {
+      "name": "Southwest Airlines",
+      "identifier": "SWA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 118,
+    "fields": {
+      "name": "Spirit Airlines",
+      "identifier": "NKS"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 119,
+    "fields": {
+      "name": "Spring Airlines",
+      "identifier": "CQH"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 120,
+    "fields": {
+      "name": "SriLankan Airlines",
+      "identifier": "ALK"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 121,
+    "fields": {
+      "name": "Swissair",
+      "identifier": "SWR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 122,
+    "fields": {
+      "name": "TAP Portugal",
+      "identifier": "TAP"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 123,
+    "fields": {
+      "name": "Titan Airways",
+      "identifier": "AWC"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 124,
+    "fields": {
+      "name": "United Airlines",
+      "identifier": "UAL"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 125,
+    "fields": {
+      "name": "Vietnam Airlines",
+      "identifier": "HVN"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 126,
+    "fields": {
+      "name": "Virgin Atlantic",
+      "identifier": "VIR"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 127,
+    "fields": {
+      "name": "Volotea",
+      "identifier": "VOI"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 128,
+    "fields": {
+      "name": "WestJet",
+      "identifier": "WJA"
+    }
+  },
+  {
+    "model": "pilot_posts.airline",
+    "pk": 129,
+    "fields": {
+      "name": "Wizz Air",
+      "identifier": "WZZ"
+    }
+  }
+]
