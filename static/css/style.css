@@ -1,0 +1,18 @@
+/* leaflet map */
+#map {
+    min-height: 250px;
+    height: 100%;
+}
+
+.img-preview {
+    max-height: 100px;
+}
+
+.img-full {
+    max-height: 75vh;
+}
+
+img.card-img-top.img-fluid {
+    height: 25vh;
+    object-fit: cover;
+}
