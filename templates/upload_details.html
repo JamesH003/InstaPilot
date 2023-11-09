@@ -36,3 +36,30 @@
     </div>
 </div>
 {% endblock %}
+
+
+{% block js %}
+
+<!-- leaflet map: code assistance from mentor Tim Nelson -->
+<script>
+
+    // initial view (set on Dublin Airport by default)
+    let map = L.map('map').setView([53.42662, -6.26290], 13);
+
+    // tiles
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    // basic leaflet map
+    let mapLat = {{ upload.latitude }};
+    let mapLng = {{ upload.longitude }};
+    map.setView([mapLat, mapLng], 13);
+
+    // map marker
+    let marker = L.marker([mapLat, mapLng], { draggable: false }).addTo(map);
+
+</script>
+
+{% endblock %}
