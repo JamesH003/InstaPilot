@@ -56,3 +56,8 @@ def edit_upload(request, id):
 
     return render(request, 'edit_upload.html', context)
 
+
+def delete_post(request, id):
+    upload = get_object_or_404(Upload, id=id)
+    upload.delete()
+    return redirect('home')
