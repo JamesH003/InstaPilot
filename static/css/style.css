@@ -1,5 +1,12 @@
     font-family: 'AR One Sans', sans-serif ;
 
+.card-form-admin {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    border-radius: 1em;
+    width: 50%;
+}
+
 #logo {
     font-size: 300%;
     text-shadow: 2px 2px #888;
