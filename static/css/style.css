@@ -1,5 +1,10 @@
     font-family: 'AR One Sans', sans-serif ;
 
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* box-shadow: 5px 10px #888; */
+}
+
 #card-form-upload-post {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1em;
