@@ -28,6 +28,12 @@
     /* color: aqua; */
 }
 
+.nav-link {
+    font-size: 150%;
+    color: #000;
+}
+
+
 /* leaflet map */
 #map {
     min-height: 250px;
