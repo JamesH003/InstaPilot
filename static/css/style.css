@@ -1,4 +1,11 @@
     font-family: 'AR One Sans', sans-serif ;
+
+#logo {
+    font-size: 300%;
+    text-shadow: 2px 2px #888;
+    /* color: aqua; */
+}
+
 /* leaflet map */
 #map {
     min-height: 250px;
