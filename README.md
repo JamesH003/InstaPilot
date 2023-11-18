@@ -165,19 +165,10 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 < summary > Click here to see the Mobile Wireframes < / summary >
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+  - ![screenshot](documentation/wireframes/wireframe-phone1.png)
 
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
-
-etc.
-  - repeat for any remaining mobile wireframes
+Details
+  - ![screenshot](documentation/wireframes/wireframe-phone2.png)
 
 < / details >
 
@@ -187,19 +178,11 @@ etc.
 < summary > Click here to see the Tablet Wireframes < / summary >
 
 Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+  - ![screenshot](documentation/wireframes/wireframe-tablet1.png)
 
-About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
+Details
+  - ![screenshot](documentation/wireframes/wireframe-tablet2.png)
 
-Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
-
-etc.
-  - repeat for any remaining tablet wireframes
 
 < / details >
 
@@ -209,19 +192,10 @@ etc.
 < summary > Click here to see the Desktop Wireframes < / summary >
 
 Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
+  - ![screenshot](documentation/wireframes/wireframe-desktop1.png)
 
-About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
-
-etc.
-  - repeat for any remaining desktop wireframes
+Details
+  - ![screenshot](documentation/wireframes/wireframe-desktop2.png)
 
 < / details >
 
