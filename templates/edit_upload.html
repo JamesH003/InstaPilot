@@ -3,22 +3,18 @@
 
 {% block content %}
 
-<div class="row">
-  <div class="col-12">
-    <h1>
-      Edit a Post:<br>
-      {% if "placeholder" in upload.image.url %}
-          <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="{{ upload.caption }}" class="img-fluid img-preview">
-      {% else %}
-          <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-preview">
-      {% endif %}
-    </h1>
-  </div>
-</div>
 
 <div class="row">
   <div class="col-12 col-md-6">
-    <form method="POST" action="{% url 'edit_upload' upload.id %}" enctype="multipart/form-data">
+    <form id="card-edit" class="mb-3" method="POST" action="{% url 'edit_upload' upload.id %}" enctype="multipart/form-data">
+      <h1>
+        Edit a Post:
+      </h1>
+        {% if "placeholder" in upload.image.url %}
+            <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="{{ upload.caption }}" class="img-fluid img-preview">
+        {% else %}
+            <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-preview">
+        {% endif %}
       {% csrf_token %}
       {{ form.as_p }}
       <div>
