@@ -11,6 +11,16 @@
         {% else %}
         <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-full">
         {% endif %}
+        
+        <div class="row">
+            <div class="col-12 mt-3">
+                <p class="caption">
+                    <strong>{{ upload.user }}</strong>: {{ upload.caption }}<br>
+                    <strong>Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
+                    <strong>Location</strong>: {{ upload.location }}
+                </p>
+            </div>
+        </div>
     </div>
     <div class="col-12 col-md-6 text-center mx-auto">
         <!-- map -->
