@@ -110,27 +110,31 @@ In this section, list all of your user stories for the project.
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to register an account, so that I can post my own images.
+- As a new site user, I would like to post an image, so that I can view my image on the site.
+- As a new site user, I would like to add a caption, so that I can add information to my post.
+- As a new site user, I would like to add a flight number, so that I can add information to a post.
+- As a new site user, I would like to select an airline, so that I can allocate my post to a specific airline.
+- As a new site user, I would like to define the location of the image on a map, so that I can add to the user experience.
+- As a new site user, I would like to click on an image, so that I can view the full image and information.
+- As a new site user, I would like to comment on a post, so that I can provide feedback about the post.
+- As a new site user, I would like to like a post, so that I can show this post appeals to me.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to login to my account, so that I can view, edit and delete my posts.
+- As a returning site user, I would like to logout of my account, so that I can logout and prevent other editing and deleting my posts.
+- As a returning site user, I would like to edit my post, so that I can amend my posts as required.
+- As a returning site user, I would like to delete a post, so that I can delete unwanted posts.
+- As a returning site user, I would like to view a selection of images, so that I can select one to view.
+- As a returning site user, I would like to click on an image, so that I can view the full image and information.
 
 ### Site Admin
 
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to login to my account, so that I can view, edit and delete posts.
+- As a site administrator, I should be able to create, read, update and delete posts, so that I can manage the site content.
+- As a site administrator, I should be able to logout of my admin account, so that I can logout and prevent others editing and deleting posts.
+
 
 ## Wireframes
 
