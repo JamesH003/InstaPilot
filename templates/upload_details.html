@@ -19,32 +19,42 @@
                     <strong><i class="fas fa-plane mb-2"></i> Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
                     <strong><i class="fas fa-map-marker-alt"></i> Location</strong>: {{ upload.location }}
                 </p>
-
-            <!-- Modal: Delete Upload -->
-            <div class="modal fade" id="modal-delete-img-{{ upload.id }}" tabindex="-1" aria-labelledby="modal-delete-label-{{ upload.id }}" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="modal-delete-label-{{ upload.id }}">Delete Photo</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        Are you sure you want to delete this photo?
-                        <br>
-                        <small>This action is permanent, and cannot be undone.</small>
-                        <br><br>
-                        {% if "placeholder" not in upload.image.url %}
-                            <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-full">
-                        {% endif %}
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">No</button>
-                    <a href="{% url 'delete_post' upload.id %}" class="btn btn-danger">Yes</a>
-                    </div>
-                </div>
-                </div>
             </div>
-        {% endif %}
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {% if request.user.is_superuser or request.user == upload.user %}
+                <a href="{% url 'edit_upload' upload.id %}" class="btn btn-primary">Edit</a>
+                <a href="" class="btn btn-danger" data-bs-toggle="modal"
+                    data-bs-target="#modal-delete-img-{{ upload.id }}">Delete</a>
+
+                <!-- Modal: Delete Upload -->
+                <div class="modal fade" id="modal-delete-img-{{ upload.id }}" tabindex="-1"
+                    aria-labelledby="modal-delete-label-{{ upload.id }}" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal-delete-label-{{ upload.id }}">Delete Photo</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                Are you sure you want to delete this photo?
+                                <br>
+                                <small>This action is permanent, and cannot be undone.</small>
+                                <br><br>
+                                {% if "placeholder" not in upload.image.url %}
+                                <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-full">
+                                {% endif %}
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">No</button>
+                                <a href="{% url 'delete_post' upload.id %}" class="btn btn-danger">Yes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
 
     </div>
 </div>
