@@ -266,8 +266,11 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/logout-features.png)
 
+- **Admin Dashboard**
 
-![screenshot](documentation/feature03.png)
+    - The site also features an admin dashboard where admin users can log in and manage the site content.
+
+![screenshot](documentation/admin-features.png)
 
 <!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
