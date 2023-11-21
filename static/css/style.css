@@ -89,7 +89,7 @@ footer {
 
 /* sizing of image within card on homepage */
 img.card-img-top.img-fluid {
-    height: 25vh;
+    height: 40vh;
     object-fit: cover;
 }
 
