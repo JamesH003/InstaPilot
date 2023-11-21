@@ -218,9 +218,12 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **Title for feature #1**
+- **Landing Page**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Visitors to the site will first encounter the landing page which is the homepage of the site. The homepage consists of an opaque navbar at the top with a striking logo in the top left corner. Depending on screen size, either navigation links will be visible to the right of the logo or a navigation burger menu. The links will give the user the option of returning to the home page, registering an account or logging into their account. Beneath the navbar features a background image of a cloudy sky with an overlay of a grid of cards. Each card contains an image and some details regarding the image.
+
+![screenshot](documentation/homepage-features.png)
+
 
 ![screenshot](documentation/feature01.png)
 
