@@ -260,6 +260,12 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/delete-post-features.png)
 
+- **Logout Page**
+
+    - Users have the option of logging out of their account by clicking the logout button in the navbar. They will be brought to a new page asking them to confirm they wish to logout of their account.
+
+![screenshot](documentation/logout-features.png)
+
 
 ![screenshot](documentation/feature03.png)
 
