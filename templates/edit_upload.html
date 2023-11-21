@@ -11,7 +11,7 @@
         Edit a Post:
       </h1>
         {% if "placeholder" in upload.image.url %}
-            <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="{{ upload.caption }}" class="img-fluid img-preview">
+            <img src="https://res.cloudinary.com/dgnlyp5r0/image/upload/v1700596813/static/images/placeholder.8cf5de5d57c1.jpg" alt="{{ upload.caption }}" class="img-fluid img-preview">
         {% else %}
             <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="img-fluid img-preview">
         {% endif %}
