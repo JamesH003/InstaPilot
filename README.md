@@ -291,12 +291,11 @@ Consider adding any helpful links or notes to help remind you in the future, if 
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+- Post comments
+    - An additional future feature would be where users can leave comments on posts.
+- Post likes
+    - An additional future feature would be where users can like different posts.
+
 
 ## Tools & Technologies Used
 
