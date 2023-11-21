@@ -1,4 +1,5 @@
 /* font and background image for entire site */
+body {
     font-family: 'AR One Sans', sans-serif ;
     background: url(../images/cloudy-sky-instapilot.jpg) no-repeat;
 }
