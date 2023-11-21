@@ -254,8 +254,12 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/edit-post-features.png)
 
+- **Delete Post**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Should a user wish to delete one of their previous posts, they can click the delete button. They will then be presented with a modal requsesting them to confirm they wish to delete that specific post.
+
+![screenshot](documentation/delete-post-features.png)
+
 
 ![screenshot](documentation/feature03.png)
 
