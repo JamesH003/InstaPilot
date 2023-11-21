@@ -236,8 +236,12 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/login-features.png)
 
+- **Add Post**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Registered users have the option to add a post themselves through the 'Add post' link in the navbar. The add post page consists of a form where users can upload an image along with a caption, select an airline, enter a flight number and location where the photo was taken. Alongside the form there is also a leaflet map where users can drop a pin at the precise location where the photo was taken.
+
+![screenshot](documentation/addpost-features.png)
+
 
 ![screenshot](documentation/feature02.png)
 
