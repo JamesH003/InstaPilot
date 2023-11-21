@@ -55,7 +55,11 @@
     font-size: 150%;
     color: #000;
 }
+
 /* positioning for caption */
+.caption {
+    text-align: left;
+}
 
 /* positioning and bg color of footer */
 
