@@ -62,6 +62,13 @@
 }
 
 /* positioning and bg color of footer */
+footer {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
 /* leaflet map */
 #map {
