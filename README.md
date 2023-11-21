@@ -224,8 +224,11 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/homepage-features.png)
 
+- **Registration Page**
 
-![screenshot](documentation/feature01.png)
+    - Users can register an account through the registration page. The registration page can be accessed through the 'Register' link on the navbar. The registration form consists of a form where users can enter a username, email and password.
+
+![screenshot](documentation/register-features.png)
 
 - **Title for feature #2**
 
