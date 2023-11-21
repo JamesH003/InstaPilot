@@ -242,8 +242,11 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/addpost-features.png)
 
+- **View Post**
 
-![screenshot](documentation/feature02.png)
+    - Users can click on any of the images to view them. A new page opens up with a larger version of the image on the left with the details beneath it. On the right the leaflet map is displayed with a pin indicating the location the image was taken. If the user is the owner of the post or a superuser, there are two buttons beneath the image on the left giving the user the option to edit the post or to delete the post.
+
+![screenshot](documentation/view-post-features.png)
 
 - **Title for feature #3**
 
