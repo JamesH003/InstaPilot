@@ -15,32 +15,10 @@
         <div class="row">
             <div class="col-12 mt-3">
                 <p class="caption">
-                    <strong>{{ upload.user }}</strong>: {{ upload.caption }}<br>
-                    <strong>Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
-                    <strong>Location</strong>: {{ upload.location }}
+                    <strong><i class="fas fa-user mb-2"></i> {{ upload.user }}</strong>: {{ upload.caption }}<br>
+                    <strong><i class="fas fa-plane mb-2"></i> Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
+                    <strong><i class="fas fa-map-marker-alt"></i> Location</strong>: {{ upload.location }}
                 </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 col-md-6 text-center mx-auto">
-        <!-- map -->
-        <div id="map"></div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <p class="caption">
-            <strong>{{ upload.user }}</strong>: {{ upload.caption }}<br>
-            <strong>Flight Number</strong>: {{ upload.airline }} {{ upload.flight_number }}<br>
-            <strong>Location</strong>: {{ upload.location }}
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        {% if request.user.is_superuser or request.user == upload.user %}
-            <a href="{% url 'edit_upload' upload.id %}" class="btn btn-primary">Edit</a>
-            <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal-delete-img-{{ upload.id }}">Delete</a>
 
             <!-- Modal: Delete Upload -->
             <div class="modal fade" id="modal-delete-img-{{ upload.id }}" tabindex="-1" aria-labelledby="modal-delete-label-{{ upload.id }}" aria-hidden="true">
