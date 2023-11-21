@@ -95,3 +95,8 @@ img.card-img-top.img-fluid {
 
 /* media query for max-width 430px */
 /* sizing of textarea on upload post form */
+@media screen and (max-width: 430px) {
+    #id_caption {
+        width: 75%;
+    }
+}
