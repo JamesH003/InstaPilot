@@ -230,7 +230,12 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/register-features.png)
 
-- **Title for feature #2**
+- **Login Page**
+
+    - Users can access the Login page through the navbar. The Login page features a link for users to register if they haven't done so already. There are also input fields for username and password.
+
+![screenshot](documentation/login-features.png)
+
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
