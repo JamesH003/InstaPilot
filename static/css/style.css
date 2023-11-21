@@ -1,40 +1,51 @@
+/* font and background image for entire site */
     font-family: 'AR One Sans', sans-serif ;
     background: url(../images/cloudy-sky-instapilot.jpg) no-repeat;
 }
 
+/* opaque styling on navbar */
 .navbar {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* opaque styling on homepage background card */
 .card {
     background-color: rgba(255, 255, 255, 0.8);
     /* box-shadow: 5px 10px #888; */
 }
 
+/* background card on add post form */
 #card-form-upload-post {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1em;
     border-radius: 1em;
 }
 
+/* background card on register, login & logout forms */
 .card-form-admin {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1em;
     border-radius: 1em;
     width: 50%;
 }
+/* background card surrounding image & caption on details page */
+/* background card surround image on edit page */
 
+/* logo sizing and emphasis */
 #logo {
     font-size: 300%;
     text-shadow: 2px 2px #888;
     /* color: aqua; */
 }
 
+/* font-size and color of nav-links */
 .nav-link {
     font-size: 150%;
     color: #000;
 }
+/* positioning for caption */
 
+/* positioning and bg color of footer */
 
 /* leaflet map */
 #map {
@@ -43,15 +54,21 @@
     border-radius: 1em;
 }
 
+/* image preview on edit_upload */
 .img-preview {
     max-height: 100px;
 }
 
+/* sizing of image on details page */
 .img-full {
     max-height: 75vh;
 }
 
+/* sizing of image within card on homepage */
 img.card-img-top.img-fluid {
     height: 25vh;
     object-fit: cover;
 }
+
+/* media query for max-width 430px */
+/* sizing of textarea on upload post form */
