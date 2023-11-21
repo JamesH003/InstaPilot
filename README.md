@@ -248,7 +248,12 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/view-post-features.png)
 
-- **Title for feature #3**
+- **Edit Post**
+
+    - On the edit page, users have the option to edit their own posts and click 'Save' at the bottom once finished to save their changes. The edit page consists of the same form as when they uploaded their post initially, with their previous entries already pre-populated.
+
+![screenshot](documentation/edit-post-features.png)
+
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
