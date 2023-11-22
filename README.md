@@ -8,81 +8,23 @@ Welcome to InstaPilot! InstaPilot is a blog style photo site dedicated to aviati
 ## UX
 
 The concept of the site is very straight forward and I wanted the design to reflect this. The images are laid out on cards in a grid format with a maximum of 12 cards per page. Users can register and then login through separate pages. The home page features a background image of a cloudy sky. 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ### Colour Scheme
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain your colours and the colour scheme.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 - `#000` used for primary text.
 - `#888` used for primary highlights.
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 I used [coolors.co](https://coolors.co/3563d8-d1dcf7-000000) to generate my colour palette.
 
 ![screenshot](documentation/coolors-screenshot.png)
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
-
 ### Typography
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 - [AR One Sans](https://fonts.google.com/specimen/AR+One+Sans) was used for the primary headers, titles and all secondary text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site on individual posts.
 
 ## User Stories
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ### New Site Users
 
@@ -113,24 +55,6 @@ In this section, list all of your user stories for the project.
 
 
 ## Wireframes
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-Alternatively, dropdowns are a way to condense several wireframes into a collapsible menu to save space.
-Dropdowns in Markdown are considered some of the only acceptable HTML components that are allowed for assessment purposes.
-
-**IMPORTANT**! **IMPORTANT**! **IMPORTANT**!
-The example below uses the `details` and `summary` code elements.
-However, for these scripts to work, I've had to add spaces within the `< >` elements.
-
-You MUST remove these spaces for it to work properly on your own README/TESTING files.
-Remove the spaces within the `< >` brackets for the `details` and `summary` code elements,
-for the Mobile, Tablet, and Desktop wireframes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
@@ -176,21 +100,6 @@ Details
 </details>
 
 ## Features
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ### Existing Features
 
@@ -248,24 +157,7 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ![screenshot](documentation/admin-features.png)
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 ### Future Features
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 - Post comments
     - An additional future feature would be where users can leave comments on posts.
@@ -275,33 +167,16 @@ Consider adding any helpful links or notes to help remind you in the future, if 
 
 ## Tools & Technologies Used
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
 - [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
-- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Codeanywhere](https://codeanywhere.com) used as a cloud-based IDE for development.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
 - [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
 - [PostgreSQL](https://www.postgresql.org) used as the relational database management.
 - [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
@@ -313,11 +188,6 @@ Feel free to delete any unused items below as necessary.
 Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
 Understanding the relationships between different tables can save time later in the project.
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Using your defined models (one example below), create an ERD with the relationships identified.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ```python
 class Upload(models.Model):
@@ -397,12 +267,6 @@ There, I used my own **User Story Template** to manage user stories.
 
 It also helped with milestone iterations on a weekly basis.
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a screenshot of your Open and Closed Issues.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 - [Open Issues](https://github.com/JamesH003/InstaPilot/issues)
 
     ![screenshot](documentation/open-issues.png)
@@ -426,16 +290,6 @@ Using this approach, I was able to apply the MoSCow prioritization and labels to
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-**IMPORTANT:**
-
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-- ⚠️ DO NOT update the environment variables to your own! These should NOT be included in this file; just demo values! ⚠️
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 The live deployed application can be found deployed on [Heroku](https://instapilot-e1ebc8c013f4.herokuapp.com).
 
@@ -582,32 +436,11 @@ I have not noticed any differences between the local version and the live deploy
 
 ## Credits
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
 ### Content
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [W3Schools](https://www.w3schools.com/cssref/css3_pr_text-shadow.php) | navbar | text-shadow |
 | [W3Schools](https://www.w3schools.com/tags/att_form_enctype.asp) | forms | HTML <form> enctype Attribute |
@@ -617,20 +450,6 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 
 
 ### Media
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
