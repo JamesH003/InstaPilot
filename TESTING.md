@@ -45,12 +45,14 @@ Sample HTML code validation documentation (tables are extremely helpful!):
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJamesH003.github.io%2FInstaPilot%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJamesH003.github.io%2FInstaPilot%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FJamesH003.github.io%2FInstaPilot%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
-| Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining HTML files |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Finstapilot-e1ebc8c013f4.herokuapp.com%2F) | ![screenshot](documentation/testing/html-testing-homepage.png) | Pass: No Errors |
+| Register | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Finstapilot-e1ebc8c013f4.herokuapp.com%2Faccounts%2Fsignup%2F) | ![screenshot](documentation/testing/html-p-register.png) ![screenshot](documentation/testing/html-p-error-register.png) ![screenshot](documentation/testing/html-error-register2.png) | Extra < p > and < /p > in the {{ form.as_p }} of the Allauth signup.html template |
+| Login | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Finstapilot-e1ebc8c013f4.herokuapp.com%2Faccounts%2Flogin%2F) | ![screenshot](documentation/testing/html-testing-login.png) | Pass: No Errors |
+| Upload Post | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Finstapilot-e1ebc8c013f4.herokuapp.com%2Fupload_post) | ![screenshot](documentation/testing/html-testing-addpost.png) | Pass: No Errors |
+| Details | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Finstapilot-e1ebc8c013f4.herokuapp.com%2Fdetails%2F13) | ![screenshot](documentation/testing/html-testing-details.png) | Pass: No Errors |
+| Edit | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Finstapilot-e1ebc8c013f4.herokuapp.com%2F) | ![screenshot](documentation/testing/html-testing-edit.png) | Pass: No Errors |
+| Logout | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Finstapilot-e1ebc8c013f4.herokuapp.com%2F) | ![screenshot](documentation/testing/html-testing-logout.png) | Pass: No Errors |
+
 
 <!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
