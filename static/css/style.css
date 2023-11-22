@@ -12,7 +12,6 @@ body {
 /* opaque styling on homepage background card */
 .card {
     background-color: rgba(255, 255, 255, 0.8);
-    /* box-shadow: 5px 10px #888; */
 }
 
 /* background card on add post form */
@@ -48,7 +47,6 @@ body {
 #logo {
     font-size: 300%;
     text-shadow: 2px 2px #888;
-    /* color: aqua; */
 }
 
 /* font-size and color of nav-links */
