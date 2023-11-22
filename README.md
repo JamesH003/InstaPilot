@@ -633,24 +633,18 @@ by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Pexels](https://www.pexels.com/photo/blue-skies-53594/) | entire site | image | cloudy sky background image |
+| [Pexels](https://www.pexels.com/photo/silhouette-of-airplane-1577238/) | placeholder | image | plane in sky |
+| [PNG EGG](https://www.pngegg.com/en/png-zwtrp) | favicon | image | cloud |
+| [TinyPNG](https://tinypng.com) | favicon | image | tool for image compression |
+| [FontAwesome](https://fontawesome.com/icons/user?f=classic&s=solid) | caption | icon | user icon |
+| [FontAwesome](https://fontawesome.com/icons/plane?f=classic&s=solid) | caption | icon | plane icon |
+| [FontAwesome](https://fontawesome.com/icons/location-dot?f=classic&s=solid) | caption | icon | map-marker icon |
+| [csvjson](https://csvjson.com/csv2json) | airlines.json | csv conversion | airlines.json |
+| [draw.io](https://app.diagrams.net/?src=about) | README | screenshot | ERD diagram |
+
 
 ### Acknowledgements
-
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
