@@ -47,6 +47,9 @@ def upload_details(request, id):
 
 def edit_upload(request, id):
     upload = get_object_or_404(Upload, id=id)
+    if not request.user.is_superuser and upload.user != request.user:
+        messages.error(request, 'Access denied! Please try again')
+        return redirect('home')
     form = UploadForm(request.POST or None, request.FILES or None, instance=upload)
     if request.method == 'POST':
         if form.is_valid():
@@ -65,6 +68,9 @@ def edit_upload(request, id):
 
 def delete_post(request, id):
     upload = get_object_or_404(Upload, id=id)
+    if not request.user.is_superuser and upload.user != request.user:
+        messages.error(request, 'Access denied! Please try again')
+        return redirect('home')
     upload.delete()
     messages.success(request, 'Post deleted successfully!')
     return redirect('home')
