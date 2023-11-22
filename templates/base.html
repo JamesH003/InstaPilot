@@ -69,20 +69,17 @@
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 offset-md-2">
-        {% for message in messages %}
-        <div class="alert {{ message.tags }} alert-dismissible fade show" id="msg" role="alert">
-          {{ message | safe }}
-          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-          </button>
-        </div>
-
+  {% if messages %}
+    <section id="alerts">
+        {% for msg in messages %}
+            <!-- all django message tags mirror bootstrap, except error/danger -->
+            <aside class="alert {% if msg.tags == 'error' %}alert-danger{% else %}alert-{{ msg.tags }}{% endif %} alert-dismissible text-center" role="alert">
+                <h3>{{ msg }}</h3>
+                <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+            </aside>
         {% endfor %}
-      </div>
-    </div>
-  </div>
+    </section>
+  {% endif %}
 
   <!-- Content to be inserted from index.html -->
   <main class="container-fluid d-flex flex-column flex-grow-1 main-bg">
