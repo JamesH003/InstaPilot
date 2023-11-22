@@ -310,6 +310,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Device | Home | Register | Add post | Edit post | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/testing/responsive-phone-home.png) | ![screenshot](documentation/testing/responsive-phone-register.png) | ![screenshot](documentation/testing/responsive-phone-addpost.png) | ![screenshot](documentation/testing/responsive-phone-edit.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/testing/responsive-tablet-home.png) | ![screenshot](documentation/testing/responsive-tablet-register.png) | ![screenshot](documentation/testing/responsive-tablet-addpost.png) | ![screenshot](documentation/testing/responsive-tablet-edit.png) | Works as expected |
 
 ## Lighthouse Audit
 
