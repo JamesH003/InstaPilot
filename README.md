@@ -306,8 +306,7 @@ Feel free to delete any unused items below as necessary.
 - [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
 - [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+
 
 ## Database Design
 
@@ -384,13 +383,7 @@ It isn't a specialized tool, but with the right tags and project creation/issue 
 
 Through it, user stories, issues, and milestone tasks were planned, then tracked on a weekly basis using the basic Kanban board.
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a basic screenshot of your Projects Board.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
-![screenshot](documentation/gh-projects.png)
+![screenshot](documentation/kanban.png)
 
 ### GitHub Issues
 
@@ -411,7 +404,7 @@ Consider adding a screenshot of your Open and Closed Issues.
 
 - [Closed Issues](https://github.com/JamesH003/InstaPilot/issues?q=is%3Aissue+is%3Aclosed)
 
-    ![screenshot](documentation/gh-issues-closed.png)
+    ![screenshot](documentation/closed-issues.png)
 
 ### MoSCoW Prioritization
 
