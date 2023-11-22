@@ -1,7 +1,7 @@
 /* font and background image for entire site */
 body {
     font-family: 'AR One Sans', sans-serif ;
-    background: url("https://res.cloudinary.com/dgnlyp5r0/image/upload/v1700586365/static/images/cloudy-sky-instapilot.c6423fd78dfc.jpg") no-repeat;
+    background: url("../images/cloudy-sky-instapilot.jpg") no-repeat;
 }
 
 /* opaque styling on navbar */
