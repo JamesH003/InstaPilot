@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 
@@ -12,7 +13,7 @@
             <div class="card mb-4">
                 <div class="card-body">
                     {% if "placeholder" in upload.image.url %}
-                        <img src="https://res.cloudinary.com/dgnlyp5r0/image/upload/v1700596813/static/images/placeholder.8cf5de5d57c1.jpg" alt="{{ upload.caption }}" class="card-img-top img-fluid card-img-custom">
+                        <img src="{% static 'images/placeholder.jpg' %}" alt="{{ upload.caption }}" class="card-img-top img-fluid card-img-custom">
                     {% else %}
                         <img src="{{ upload.image.url }}" alt="{{ upload.caption }}" class="card-img-top img-fluid">
                     {% endif %}
