@@ -344,13 +344,17 @@ class Upload(models.Model):
         return self.flight_number
 ```
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+```python
+class Airline(models.Model):
+    name = models.CharField(max_length=40, null=False, blank=False)
+    identifier = models.CharField(max_length=3, null=False, blank=False)
 
-A couple recommendations for building free ERDs:
-- [Draw.io](https://draw.io)
-- [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)
+    class Meta:
+        ordering = ["name"]
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
+    def __str__(self):
+        return self.name
+```
 
 ![screenshot](documentation/erd.png)
 
