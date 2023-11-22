@@ -137,8 +137,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/wireframe-phone1.png)
@@ -146,12 +146,12 @@ Home
 Details
   - ![screenshot](documentation/wireframes/wireframe-phone2.png)
 
-< / details >
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/wireframe-tablet1.png)
@@ -160,12 +160,12 @@ Details
   - ![screenshot](documentation/wireframes/wireframe-tablet2.png)
 
 
-< / details >
+</details>
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/wireframe-desktop1.png)
@@ -173,7 +173,7 @@ Home
 Details
   - ![screenshot](documentation/wireframes/wireframe-desktop2.png)
 
-< / details >
+</details>
 
 ## Features
 
