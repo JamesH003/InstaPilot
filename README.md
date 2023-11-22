@@ -1,33 +1,9 @@
 # [INSTAPILOT](https://instapilot-e1ebc8c013f4.herokuapp.com)
 
 Welcome to InstaPilot! InstaPilot is a blog style photo site dedicated to aviation photography. The idea behind InstaPilot is that pilots, aviation enthusiasts and passengers alike can register and upload their photos taken in the air and allow others to enjoy the spectacular views. Users are able to provide a description of each photograph, along with the airline in question, flight number and exact location where each photo was taken. The site is aimed at people of all ages who have an interest in aviation and photography. Users will find the site intuitive and responsive across all devices.
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
+![screenshot](documentation/amiresponsive.png)
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://instapilot-e1ebc8c013f4.herokuapp.com
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
-![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
 ## UX
 
