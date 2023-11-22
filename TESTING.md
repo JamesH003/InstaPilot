@@ -148,11 +148,10 @@ Sample JS code validation documentation (tables are extremely helpful!):
 
 | File | Screenshot | Notes |
 | --- | --- | --- |
-| script.js | ![screenshot](documentation/js-validation-script.png) | Unused variables from external files |
-| questions.js | ![screenshot](documentation/js-validation-questions.png) | Pass: No Errors |
-| quiz.js | ![screenshot](documentation/js-validation-quiz.png) | Unused variables from external files |
-| stripe_elements.js | ![screenshot](documentation/js-validation-stripe.png) | Undefined Stripe variable |
-| x | x | x | repeat for all remaining JavaScript files |
+| base.html | ![screenshot](documentation/testing/js-testing-basehtml.png) | Pass: No Errors |
+| edit_upload.html | ![screenshot](documentation/testing/js-testing-editeuploadhtml.png) | Pass: No Errors |
+| upload_details.html | ![screenshot](documentation/testing/js-testing-uploaddetails.html.png§) | Five warnings related to django code |
+| upload_post.html | ![screenshot](documentation/testing/js-testing-uploadposthtml.png) | Pass: No Errors |
 
 ### Python
 
