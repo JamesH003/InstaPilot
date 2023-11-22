@@ -12,15 +12,6 @@ class UploadList(generic.ListView):
     paginate_by = 12
 
 
-# def get_uploads(request):
-#     uploads = Upload.objects.all().order_by('-created_on')
-#     template = 'index.html'
-#     context = {
-#         'upload_list': uploads,
-#     }
-#     return render(request, template, context)
-
-
 def upload_post(request):
     form = UploadForm(request.POST or None, request.FILES or None)
     if request.method == 'POST':
@@ -50,7 +41,8 @@ def edit_upload(request, id):
     if not request.user.is_superuser and upload.user != request.user:
         messages.error(request, 'Access denied! Please try again')
         return redirect('home')
-    form = UploadForm(request.POST or None, request.FILES or None, instance=upload)
+    form = UploadForm(
+        request.POST or None, request.FILES or None, instance=upload)
     if request.method == 'POST':
         if form.is_valid():
             form.instance.user = upload.user
@@ -61,7 +53,7 @@ def edit_upload(request, id):
     context = {
         'form': form,
         'upload': upload,
-    } 
+    }
 
     return render(request, 'edit_upload.html', context)
 
