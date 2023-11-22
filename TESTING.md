@@ -204,12 +204,15 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| run.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/instapilot/main/run.py) | ![screenshot](documentation/py-validation-run.png) | W291 trailing whitespace |
-| settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/instapilot/main/boutique-ado/settings.py) | ![screenshot](documentation/py-validation-settings.png) | E501 line too long |
-| Blog views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/instapilot/main/blog/views.py) | ![screenshot](documentation/py-validation-blog-views.png) | Pass: No Errors |
-| Checkout urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/instapilot/main/checkout/urls.py) | ![screenshot](documentation/py-validation-checkout-urls.png) | W292 no newline at end of file |
-| Profiles models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/instapilot/main/profiles/models.py) | ![screenshot](documentation/py-validation-profiles-models.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining Python files |
+| settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/main/settings.py) | ![screenshot](documentation/testing/python-testing-settingpy.png) | Pass: No Errors |
+| urls.py (main) | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/main/urls.py) | ![screenshot](documentation/testing/python-testing-urlsmain.png) | Pass: No Errors |
+| admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/admin.py) | ![screenshot](documentation/testing/python-testing-adminpy.png) | Pass: No Errors |
+| apps.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/apps.py) | ![screenshot](documentation/testing/python-testing-appspy.png) | Pass: No Errors |
+| forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/forms.py) | ![screenshot](documentation/testing/python-testing-formspy.png) | Pass: No Errors |
+| models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/models.py) | ![screenshot](documentation/testing/python-testing-modelspy.png) | Pass: No Errors |
+| urls.py (pilot_posts) | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/urls.py) | ![screenshot](documentation/testing/python-testing-urlspy.png) | Pass: No Errors |
+| views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/main/settings.py) | ![screenshot](documentation/testing/python-testing-viewspy.png) | Pass: No Errors |
+| manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/manage.py) | ![screenshot](documentation/testing/python-testing-managepy.png) | Pass: No Errors |
 
 <!-- **IMPORTANT**: Django settings.py
 
