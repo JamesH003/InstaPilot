@@ -277,6 +277,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/testing/browser-chrome-home.png) | ![screenshot](documentation/testing/browser-chrome-register.png) | ![screenshot](documentation/testing/browser-chrome-addpost.png) | ![screenshot](documentation/testing/browser-chrome-edit.png) | ![screenshot](documentation/testing/browser-chrome-delete.png) | Works as expected |
 | Firefox | ![screenshot](documentation/testing/browser-firefox-home.png) | ![screenshot](documentation/testing/browser-firefox-register.png) | ![screenshot](documentation/testing/browser-firefox-addpost.png) | ![screenshot](documentation/testing/browser-firefox-edit.png) | ![screenshot](documentation/testing/browser-firefox-delete.png) | Works as expected |
+| Edge | ![screenshot](documentation/testing/browser-edge-home.png) | ![screenshot](documentation/testing/browser-edge-register.png) | ![screenshot](documentation/testing/browser-edge-addpost.png) | ![screenshot](documentation/testing/browser-edge-edit.png) | ![screenshot](documentation/testing/browser-edge-delete.png) | Works as expected |
 
 ## Responsiveness
 
