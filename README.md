@@ -405,7 +405,7 @@ Consider adding a screenshot of your Open and Closed Issues.
 
 - [Open Issues](https://github.com/JamesH003/InstaPilot/issues)
 
-    ![screenshot](documentation/gh-issues-open.png)
+    ![screenshot](documentation/open-issues.png)
 
 - [Closed Issues](https://github.com/JamesH003/InstaPilot/issues?q=is%3Aissue+is%3Aclosed)
 
