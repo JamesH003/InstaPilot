@@ -358,25 +358,26 @@ class Airline(models.Model):
 
 ![screenshot](documentation/erd.png)
 
-<!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Using Markdown formatting to represent an example ERD table using the Product model above:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
-
-- Table: **Product**
+- Table: **Upload**
 
     | **PK** | **id** (unique) | Type | Notes |
     | --- | --- | --- | --- |
-    | **FK** | category | ForeignKey | FK to **Category** model |
-    | | sku | CharField | |
+    | **FK** | user | ForeignKey | FK to **User** model |
+    | | image | CloudinaryField | |
+    | | caption | TextField | |
+    | | airline | ForeignKey | |
+    | | flight_number | CharField | |
+    | | location | CharField | |
+    | | latitude | DecimalField | |
+    | | longitude | DecimalField | |
+    | | created_on | DateTimeField | |
+
+- Table: **Airline**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
     | | name | CharField | |
-    | | description | TextField | |
-    | | has_sizes | BooleanField | |
-    | | price | DecimalField | |
-    | | rating | DecimalField | |
-    | | image_url | URLField | |
-    | | image | ImageField | |
+    | | identifier | Charfield | |
 
 ## Agile Development Process
 
