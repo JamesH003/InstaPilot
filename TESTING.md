@@ -280,6 +280,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Edge | ![screenshot](documentation/testing/browser-edge-home.png) | ![screenshot](documentation/testing/browser-edge-register.png) | ![screenshot](documentation/testing/browser-edge-addpost.png) | ![screenshot](documentation/testing/browser-edge-edit.png) | ![screenshot](documentation/testing/browser-edge-delete.png) | Works as expected |
 | Safari | ![screenshot](documentation/testing/browser-safari-home.png) | ![screenshot](documentation/testing/browser-safari-register.png) | ![screenshot](documentation/testing/browser-safari-addpost.png) | ![screenshot](documentation/testing/browser-safari-edit.png) | ![screenshot](documentation/testing/browser-safari-delete.png) | Works as expected |
 | Brave | ![screenshot](documentation/testing/browser-brave-home.png) | ![screenshot](documentation/testing/browser-brave-register.png) | ![screenshot](documentation/testing/browser-brave-addpost.png) | ![screenshot](documentation/testing/browser-brave-edit.png) | ![screenshot](documentation/testing/browser-brave-delete.png) | Works as expected |
+| Opera | ![screenshot](documentation/testing/browser-opera-home.png) | ![screenshot](documentation/testing/browser-opera-register.png) | ![screenshot](documentation/testing/browser-opera-addpost.png) | ![screenshot](documentation/testing/browser-opera-edit.png) | ![screenshot](documentation/testing/browser-opera-delete.png) | Works as expected |
 
 ## Responsiveness
 
