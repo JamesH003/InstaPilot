@@ -265,8 +265,6 @@ Through it, user stories, issues, and milestone tasks were planned, then tracked
 [GitHub Issues](https://github.com/JamesH003/InstaPilot/issues) served as an another Agile tool.
 There, I used my own **User Story Template** to manage user stories.
 
-It also helped with milestone iterations on a weekly basis.
-
 - [Open Issues](https://github.com/JamesH003/InstaPilot/issues)
 
     ![screenshot](documentation/open-issues.png)
