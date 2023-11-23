@@ -99,3 +99,11 @@ img.card-img-top.img-fluid {
         width: 75%;
     }
 }
+
+/* media query for max-width 780px */
+/* to ensure bg img extends full length of content on smaller screens */
+@media screen and (max-width: 780px) {
+    body {
+        background: url("https://res.cloudinary.com/dgnlyp5r0/image/upload/v1700586365/static/images/cloudy-sky-instapilot.c6423fd78dfc.jpg");
+    }
+}
