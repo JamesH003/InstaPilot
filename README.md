@@ -460,7 +460,7 @@ I have not noticed any differences between the local version and the live deploy
 | [FontAwesome](https://fontawesome.com/icons/user?f=classic&s=solid) | caption | icon | user icon |
 | [FontAwesome](https://fontawesome.com/icons/plane?f=classic&s=solid) | caption | icon | plane icon |
 | [FontAwesome](https://fontawesome.com/icons/location-dot?f=classic&s=solid) | caption | icon | map-marker icon |
-| [csvjson](https://csvjson.com/csv2json) | airlines.json | csv conversion | airlines.json |
+| [csvjson](https://csvjson.com/csv2json) | airlines.json | csv conversion | converted csv file to json |
 | [draw.io](https://app.diagrams.net/?src=about) | README | screenshot | ERD diagram |
 
 
