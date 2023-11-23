@@ -41,7 +41,7 @@ I used [coolors.co](https://coolors.co/3563d8-d1dcf7-000000) to generate my colo
 ### Returning Site Users
 
 - As a returning site user, I would like to login to my account, so that I can view, edit and delete my posts.
-- As a returning site user, I would like to logout of my account, so that I can logout and prevent other editing and deleting my posts.
+- As a returning site user, I would like to logout of my account, so that I can logout and prevent others editing and deleting my posts.
 - As a returning site user, I would like to edit my post, so that I can amend my posts as required.
 - As a returning site user, I would like to delete a post, so that I can delete unwanted posts.
 - As a returning site user, I would like to view a selection of images, so that I can select one to view.
