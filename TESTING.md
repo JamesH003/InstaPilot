@@ -427,7 +427,7 @@ When in doubt, use the above method instead, and delete the table below.
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑 -->
 
-| Page | User Action | Expected Result | Pass/Fail | Comments |
+<!-- | Page | User Action | Expected Result | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
 | Home | | | | |
 | | Click on Logo | Redirection to Home page | Pass | |
@@ -460,7 +460,7 @@ When in doubt, use the above method instead, and delete the table below.
 | | Click on the Edit button | User will be redirected to the edit profile page | Pass | |
 | | Click on the My Orders link | User will be redirected to the My Orders page | Pass | |
 | | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
-| repeat for all remaining pages | x | x | x | x |
+| repeat for all remaining pages | x | x | x | x | -->
 
 <!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
@@ -483,16 +483,16 @@ from the respective feature.
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to register an account, so that I can post my own images. | ![screenshot](documentation/register-features.png) |
+| As a new site user, I would like to post an image, so that I can view my image on the site. | ![screenshot](documentation/homepage-features.png) |
+| As a new site user, I would like to add a caption, flight number, airline and location so that I can add information to my post.️ | ![screenshot](documentation/addpost-features.png) |
+| As a new site user, I would like to click on an image, so that I can view the full image and information. | ![screenshot](documentation/testing/defprog-edit-edit-not-possible.png) |
+| As a returning site user, I would like to login to my account, so that I can view, edit and delete my posts. | ![screenshot](documentation/login-features.png) |
+| As a returning site user, I would like to logout of my account, so that I can logout and prevent other editing and deleting my posts. | ![screenshot](documentation/logout-features.png) |
+| As a returning site user, I would like to edit my post, so that I can amend my posts as required. | ![screenshot](documentation/edit-post-features.png) |
+| As a returning site user, I would like to delete a post, so that I can delete unwanted posts. | ![screenshot](documentation/delete-post-features.png) |
+| As a site administrator, I should be able to login to my account, so that I can view, edit and delete posts. | ![screenshot](documentation/admin-features.png) |
+
 
 ## Bugs
 
