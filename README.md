@@ -235,7 +235,7 @@ class Airline(models.Model):
     | **FK** | user | ForeignKey | FK to **User** model |
     | | image | CloudinaryField | |
     | | caption | TextField | |
-    | | airline | ForeignKey | |
+    | | airline | ForeignKey | FK to **Airline** model |
     | | flight_number | CharField | |
     | | location | CharField | |
     | | latitude | DecimalField | |
