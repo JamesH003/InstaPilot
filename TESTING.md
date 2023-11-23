@@ -402,18 +402,21 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
 | Home | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature02.png) |
-| About | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature03.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature04.png) |
-| Gallery | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature05.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature06.png) |
-| Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature08.png) |
-| repeat for all remaining pages | x | x | x | x | x |
+| | From the home page a user should be able to view the images, but not edit or delete them, unless the user is logged in and the image belongs to them or is a superuser | Tested the feature by remaining logged out and clicking on an image | The feature behaved as expected, and neither the edit or delete options were displayed | Test concluded and passed | ![screenshot](documentation/testing/defprog-edit-edit-not-possible.png) |
+| | From the home page a user should not be able to brute-force a URL to navigate to a restricted page | Tested the feature by remaining logged out and typing '/edit/13' at the end of the site url (https://instapilot-e1ebc8c013f4.herokuapp.com/edit/13) | The feature behaved as expected, and access was denied | Test concluded and passed | ![screenshot](documentation/testing/defprog-no-access.png) |
+| Register | | | | | |
+| | Registration form is expected to require a username be entered | Tested the feature by leaving the field blank | The feature behaved as expected, and requested a username be entered | Test concluded and passed | ![screenshot](documentation/testing/defprog-register-username-missing.png) |
+| | Registration form is expected to request a different username if the one entered is already in use | Tested the feature by entering a username already in use | The feature behaved as expected, and requested a different username be entered | Test concluded and passed | ![screenshot](documentation/testing/defprog-register-user-exists.png) |
+| Login | | | | | |
+| | The login form is expected to only grant access with a correct username and password combination | Tested the feature by entering an incorrect password | The feature behaved as expected, and it did not grant me access | Test concluded and passed | ![screenshot](documentation/testing/defprog-login-incorrect-password.png) |
+| Add post | | | | | |
+| | Add post form is expected to require a caption | Tested the feature by not entering a caption | The feature behaved as expected, and it requested a caption be entered | Test concluded and passed | ![screenshot](documentation/testing/defprog-addpost-caption-required.png) |
+| | Add post form is expected to require a flight number | Tested the feature by not entering a flight number | The feature behaved as expected, and it requested a flight number be entered | Test concluded and passed | ![screenshot](documentation/testing/defprog-addpost-flightnumber-required.png) |
+| | Add post form is expected to require a location | Tested the feature by not entering a location | The feature behaved as expected, and it requested a location be entered | Test concluded and passed | ![screenshot](documentation/testing/defprog-addpost-location-required.png) |
+| | Add post form is expected to require a location be set on the map | Tested the feature by not entering a location | The feature behaved as expected, and didn't allow the share button be clicked | Test concluded and passed | ![screenshot](documentation/testing/defprog-addpost-map.png) |
+| Delete modal | | | | | |
+| | Details page is expected to prompt the user to confirm they wish to delete their image before deleting it | Tested the feature by clicking delete on an image | The feature behaved as expected, and a modal appeared requesting the user to confirm they wish to delete the image | Test concluded and passed | ![screenshot](documentation/testing/defprog-delete-modal.png) |
+
 
 <!-- ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
