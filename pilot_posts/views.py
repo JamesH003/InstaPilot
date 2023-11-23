@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views import generic
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from .models import Airline, Upload
 from .forms import UploadForm
 
@@ -12,6 +13,7 @@ class UploadList(generic.ListView):
     paginate_by = 12
 
 
+@login_required
 def upload_post(request):
     form = UploadForm(request.POST or None, request.FILES or None)
     if request.method == 'POST':
@@ -27,6 +29,7 @@ def upload_post(request):
     return render(request, 'upload_post.html', context)
 
 
+@login_required
 def upload_details(request, id):
     upload = get_object_or_404(Upload, id=id)
     context = {
@@ -36,6 +39,7 @@ def upload_details(request, id):
     return render(request, 'upload_details.html', context)
 
 
+@login_required
 def edit_upload(request, id):
     upload = get_object_or_404(Upload, id=id)
     if not request.user.is_superuser and upload.user != request.user:
@@ -58,6 +62,7 @@ def edit_upload(request, id):
     return render(request, 'edit_upload.html', context)
 
 
+@login_required
 def delete_post(request, id):
     upload = get_object_or_404(Upload, id=id)
     if not request.user.is_superuser and upload.user != request.user:
