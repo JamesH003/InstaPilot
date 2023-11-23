@@ -36,7 +36,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | --- | --- | --- |
 | base.html | ![screenshot](documentation/testing/js-testing-basehtml.png) | Pass: No Errors |
 | edit_upload.html | ![screenshot](documentation/testing/js-testing-editeuploadhtml.png) | Pass: No Errors |
-| upload_details.html | ![screenshot](documentation/testing/js-testing-uploaddetails.html.png§) | Five warnings related to django code |
+| upload_details.html | ![screenshot](documentation/testing/js-testing-uploaddetails.html.png) | Five warnings related to django code |
 | upload_post.html | ![screenshot](documentation/testing/js-testing-uploadposthtml.png) | Pass: No Errors |
 
 ### Python
