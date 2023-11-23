@@ -52,7 +52,7 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/forms.py) | ![screenshot](documentation/testing/python-testing-formspy.png) | Pass: No Errors |
 | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/models.py) | ![screenshot](documentation/testing/python-testing-modelspy.png) | Pass: No Errors |
 | urls.py (pilot_posts) | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/urls.py) | ![screenshot](documentation/testing/python-testing-urlspy.png) | Pass: No Errors |
-| views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/main/settings.py) | ![screenshot](documentation/testing/python-testing-viewspy.png) | Pass: No Errors |
+| views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/pilot_posts/views.py) | ![screenshot](documentation/testing/python-testing-viewspy.png) | Pass: No Errors |
 | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JamesH003/InstaPilot/main/manage.py) | ![screenshot](documentation/testing/python-testing-managepy.png) | Pass: No Errors |
 
 
